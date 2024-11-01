@@ -5,6 +5,24 @@
 It's a tiny project
 
 You can check a single or a list of ports using this
+
+## Installation
+1. Make sure you have rust installed
+2. Just cd to project root and run
+
+```
+  cargo build --release
+```
+or you can do
+
+```
+  #If you have ~/.cargo/bin directory on path
+  cargo install --path . 
+
+  # then you can do
+  porz {OPTIONS}
+```
+
 ## Usage
 
 You can run **Porz** with the following command-line options:
